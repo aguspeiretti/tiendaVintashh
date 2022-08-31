@@ -659,11 +659,11 @@ main {
       .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo {
         width: 370px;
         margin-top: 80px;
-        background: #FCFD9A;
+        background: #fcfd9a;
         border-radius: 15px; }
         .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo h3 {
           width: 347px;
-          font-family: 'OldSport';
+          font-family: "OldSport";
           font-style: normal;
           font-weight: 400;
           font-size: 40px;
@@ -681,7 +681,7 @@ main {
         border-radius: 25px;
         border: none;
         margin-top: 40px;
-        font-family: 'Jost';
+        font-family: "Jost";
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -689,8 +689,9 @@ main {
         display: flex;
         align-items: center;
         text-align: center;
-        justify-content: center;
-        color: #1D1D1D; }
+        justify-content: center; }
+        .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta button button a {
+          color: #1d1d1d; }
     .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox {
       height: 25.375em;
       width: 25.063em;
@@ -702,18 +703,18 @@ main {
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding-top: 6.693989071038251vh; }
+        padding-top: 4.793989071038251vh; }
         .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox .cardsCompraVenta .detalleCard {
-          padding-top: 3.121584699453552vh;
+          padding-top: 1.4vh;
           padding-left: 3.215434083601286vw;
           padding-right: 3.215434083601286vw;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 400;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 126%;
           text-align: center;
-          color: #1D1D1D; }
+          color: #1d1d1d; }
   .mainCompraVenta .mainCompraVentaDesktop .descripcion {
     width: 100%;
     height: 200px;
@@ -727,7 +728,7 @@ main {
       width: 33.3333333333333%;
       height: 100%; }
       .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .tituloDetalle {
-        font-family: 'Jost';
+        font-family: "Jost";
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -735,11 +736,11 @@ main {
         display: flex;
         align-items: center;
         text-transform: uppercase;
-        color: #1D1D1D; }
+        color: #1d1d1d; }
       .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .textoDetalle {
         width: 257px;
         height: 100px;
-        font-family: 'Jost';
+        font-family: "Jost";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -758,23 +759,28 @@ main {
   .mainCompraVenta .mainCompraVentaMobile {
     margin-top: 50px;
     display: block; }
-    .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile {
+    .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile,
+    .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile {
       margin-left: 5.03125vw;
-      background: #F5F5F5; }
-      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .titulo, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .titulo {
+      background: #f5f5f5; }
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .titulo,
+      .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .titulo {
         font-family: "OldSport", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 20px; }
-      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile p, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile p {
-        font-family: 'Jost';
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile p,
+      .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile p {
+        font-family: "Jost";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 115%;
-        color: #1D1D1D; }
-      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button {
+        color: #1d1d1d;
+        margin-top: 0px; }
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button,
+      .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -785,31 +791,41 @@ main {
         margin-top: 40px;
         height: 48px;
         width: 95%;
-        font-family: 'Jost';
+        font-family: "Jost";
         font-style: normal;
         font-weight: 600;
         font-size: 15px;
         line-height: 22px; }
-        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button .wpIcono, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button .wpIcono {
+        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button .wpIcono,
+        .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button .wpIcono {
           width: 28px; }
-      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido {
-        margin-top: 20px;
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido,
+      .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido {
+        margin-top: 40px;
         display: flex;
         align-items: center;
         height: 100px; }
-        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido img, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido img {
+        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido img,
+        .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido img {
           margin-right: 5.03125vw; }
-        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido p, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido p {
-          font-family: 'Jost';
+        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido p,
+        .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido p {
+          font-family: "Jost";
           font-style: normal;
           font-weight: 400;
           font-size: 18px;
           line-height: 115%;
-          color: #1D1D1D;
+          color: #1d1d1d;
           width: 70%; }
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .cnt2,
+      .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .cnt2 {
+        margin-top: 60px; }
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .cnt3,
+      .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .cnt3 {
+        margin-top: 100px; }
     .mainCompraVenta .mainCompraVentaMobile .descripcion {
       width: 100%;
-      background-color: #F7EFFE; }
+      background-color: #f7effe; }
       .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle {
         display: flex;
         align-items: flex-start;
@@ -819,7 +835,7 @@ main {
         padding-top: 50px;
         margin-top: 0px; }
         .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle .tituloDetalle {
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 600;
           font-size: 16px;
@@ -827,13 +843,13 @@ main {
           display: flex;
           align-items: center;
           text-transform: uppercase;
-          color: #1D1D1D;
+          color: #1d1d1d;
           margin-bottom: 10px; }
         .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle .textoDetalle {
           margin-left: 3.5625vw;
           width: 300px;
           height: 100px;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;

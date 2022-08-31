@@ -12,31 +12,29 @@
         flex-direction: column;
         margin-top: 100px;
 
-
         .compraVentaBoxContainer {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
           margin-top: 50px;
         }
-        .fondoTitulo{
+        .fondoTitulo {
           width: 370px;
           margin-top: 80px;
-          background: #FCFD9A;
+          background: #fcfd9a;
           border-radius: 15px;
 
-          h3{            
+          h3 {
             width: 347px;
-            font-family: 'OldSport';
+            font-family: "OldSport";
             font-style: normal;
             font-weight: 400;
             font-size: 40px;
             line-height: 40px;
-            margin-left: 10.19px;  
+            margin-left: 10.19px;
           }
-
         }
-        
+
         p {
           margin-top: 50px;
           font-size: 40px;
@@ -51,7 +49,7 @@
           border-radius: 25px;
           border: none;
           margin-top: 40px;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 600;
           font-size: 16px;
@@ -59,11 +57,11 @@
           display: flex;
           align-items: center;
           text-align: center;
-          justify-content:center;
+          justify-content: center;
 
-          color: #1D1D1D;
-
-
+          button a {
+            color: #1d1d1d;
+          }
         }
       }
 
@@ -79,21 +77,20 @@
           display: flex;
           align-items: center;
           flex-direction: column;
-          padding-top: 6.693989071038251vh;
+          padding-top: 4.793989071038251vh;
 
           .detalleCard {
-            padding-top: 3.121584699453552vh;
+            padding-top: 1.4vh;
             padding-left: 3.215434083601286vw;
             padding-right: 3.215434083601286vw;
-            font-family: 'Jost';
+            font-family: "Jost";
             font-style: normal;
             font-weight: 400;
-            font-size: 20px;
+            font-size: 18px;
             line-height: 126%;
             text-align: center;
-            color: #1D1D1D;
+            color: #1d1d1d;
           }
-
         }
       }
     }
@@ -102,7 +99,7 @@
       height: 200px;
       display: flex;
       align-items: center;
-      
+
       .detalle {
         padding-top: 50px;
         justify-content: center;
@@ -112,7 +109,7 @@
         height: 100%;
 
         .tituloDetalle {
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 600;
           font-size: 16px;
@@ -120,13 +117,13 @@
           display: flex;
           align-items: center;
           text-transform: uppercase;
-          color: #1D1D1D;
+          color: #1d1d1d;
         }
 
         .textoDetalle {
           width: 257px;
           height: 100px;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -146,29 +143,32 @@
   }
 }
 @media (max-width: 765px) {
-  .mainCompraVenta{
-    .mainCompraVentaDesktop{
+  .mainCompraVenta {
+    .mainCompraVentaDesktop {
       display: none;
     }
-    .mainCompraVentaMobile{
-      margin-top: 50px ;
+    .mainCompraVentaMobile {
+      margin-top: 50px;
       display: block;
-      .comoComprarMobile, .comoVenderMobile{
+      .comoComprarMobile,
+      .comoVenderMobile {
         margin-left: 5.03125vw;
-        background: #F5F5F5;
-        .titulo{
-          font-family: "OldSport", sans-serif;          font-style: normal;
+        background: #f5f5f5;
+        .titulo {
+          font-family: "OldSport", sans-serif;
+          font-style: normal;
           font-weight: 400;
           font-size: 20px;
           line-height: 20px;
         }
-        p{
-          font-family: 'Jost';
+        p {
+          font-family: "Jost";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
           line-height: 115%;
-          color: #1D1D1D;
+          color: #1d1d1d;
+          margin-top: 0px;
         }
         button {
           display: flex;
@@ -181,41 +181,47 @@
           margin-top: 40px;
           height: 48px;
           width: 95%;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 600;
           font-size: 15px;
           line-height: 22px;
-          
-          .wpIcono{
+
+          .wpIcono {
             width: 28px;
           }
-
         }
-        .contenido{
-          margin-top: 20px;
+
+        .contenido {
+          margin-top: 40px;
           display: flex;
           align-items: center;
           height: 100px;
-          img{
+          img {
             margin-right: 5.03125vw;
           }
-          p{
-            font-family: 'Jost';
+          p {
+            font-family: "Jost";
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 115%;
-            color: #1D1D1D;
+            color: #1d1d1d;
             width: 70%;
           }
-
+        }
+        .cnt2 {
+          margin-top: 60px;
+        }
+        .cnt3 {
+          margin-top: 100px;
         }
       }
+
       .descripcion {
         width: 100%;
-        background-color: #F7EFFE;
-  
+        background-color: #f7effe;
+
         .detalle {
           display: flex;
           align-items: flex-start;
@@ -225,9 +231,8 @@
           padding-top: 50px;
           margin-top: 0px;
 
-  
           .tituloDetalle {
-            font-family: 'Jost';
+            font-family: "Jost";
             font-style: normal;
             font-weight: 600;
             font-size: 16px;
@@ -235,22 +240,22 @@
             display: flex;
             align-items: center;
             text-transform: uppercase;
-            color: #1D1D1D;
+            color: #1d1d1d;
             margin-bottom: 10px;
           }
-  
+
           .textoDetalle {
             margin-left: 3.5625vw;
             width: 300px;
             height: 100px;
-            font-family: 'Jost';
+            font-family: "Jost";
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 122%;
             color: #000000;
           }
-  
+
           img {
             width: 41px;
             margin-right: 1.607717041800643vw;
