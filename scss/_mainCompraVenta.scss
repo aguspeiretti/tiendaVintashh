@@ -59,7 +59,7 @@
           text-align: center;
           justify-content: center;
 
-          button a {
+          a {
             color: #1d1d1d;
           }
         }
@@ -186,7 +186,9 @@
           font-weight: 600;
           font-size: 15px;
           line-height: 22px;
-
+          a {
+            color: #1d1d1d;
+          }
           .wpIcono {
             width: 28px;
           }

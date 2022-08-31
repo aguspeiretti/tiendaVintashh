@@ -690,7 +690,7 @@ main {
         align-items: center;
         text-align: center;
         justify-content: center; }
-        .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta button button a {
+        .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta button a {
           color: #1d1d1d; }
     .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox {
       height: 25.375em;
@@ -796,6 +796,9 @@ main {
         font-weight: 600;
         font-size: 15px;
         line-height: 22px; }
+        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button a,
+        .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button a {
+          color: #1d1d1d; }
         .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button .wpIcono,
         .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button .wpIcono {
           width: 28px; }
